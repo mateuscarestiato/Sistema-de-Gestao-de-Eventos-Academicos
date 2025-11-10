@@ -7,6 +7,7 @@ Ele demonstra conceitos de **Programação Orientada a Objetos (POO)**, como **h
 
 ## 📁 Estrutura do Projeto
 src/universidade.eventos/Modelos.java # Implementação de todas as classes do domínio
+
 src/universidade.eventos/Main.java # Classe principal com exemplos de uso
 
 ---
