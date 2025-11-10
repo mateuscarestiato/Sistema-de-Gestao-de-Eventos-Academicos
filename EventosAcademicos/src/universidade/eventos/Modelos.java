@@ -77,7 +77,7 @@ class Auditorio extends Local {
 
 class Laboratorio extends Local {
     private int numeroComputadores;
-    private String tipo; // "Informática" ou "Química"
+    private String tipo;
 
     public Laboratorio(String nome, int capacidadeMaxima, String bloco, int numeroComputadores, String tipo) {
         super(nome, capacidadeMaxima, bloco);
@@ -194,7 +194,7 @@ class Participante {
 
 abstract class Evento {
     protected String titulo;
-    protected String data; // formato "DD/MM/AAAA"
+    protected String data; 
     protected int duracaoHoras;
     protected double orcamento;
     protected Local local;
