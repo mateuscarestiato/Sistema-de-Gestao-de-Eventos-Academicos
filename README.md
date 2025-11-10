@@ -6,30 +6,28 @@ Ele demonstra conceitos de **Programação Orientada a Objetos (POO)**, como **h
 ---
 
 ## 📁 Estrutura do Projeto
-src/
-└── universidade.eventos/
-├── Modelos.java # Implementação de todas as classes do domínio
-└── Main.java # Classe principal com exemplos de uso
+src/universidade.eventos/Modelos.java # Implementação de todas as classes do domínio
+src/universidade.eventos/Main.java # Classe principal com exemplos de uso
 
 ---
 
-## 🧩 Classes Implementadas
+## Classes Implementadas
 
-### 🏫 Locais
+### Locais
 - **Local (classe base)**
 - **Sala**
 - **Auditório**
 - **Laboratório**
 
-### 👩‍🏫 Pessoas
+### Pessoas
 - **PessoaResponsavel (abstrata)**
 - **Instrutor**
 - **Organizador**
 
-### 🎓 Participantes
+### Participantes
 - **Participante**
 
-### 📅 Eventos
+### Eventos
 - **Evento (abstrata)**
 - **Palestra**
 - **Minicurso**
